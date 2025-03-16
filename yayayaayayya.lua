@@ -13,13 +13,13 @@ local game_map = {
 
    [3183403065] = function() -- setclipboard(game.GameId) this how to get game id
         if _G.VersionControl = "V2" then
-            loadstring(game:HttpGet("https://sdhfiudashdfhe12e.xnxx"))()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/KangKung02/royxGameLoader/refs/heads/main/AAOld.lua"))()
         elseif _G.RoyxSpecialMode = "Hell Factory" then
-            loadstring(game:HttpGet("https://sdhfiudashdfhe12e.xnxx2"))()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/KangKung02/royxGameLoader/refs/heads/main/AAOld.lua"))()
         elseif _G.VersionControl = "Pre-release" then
-            loadstring(game:HttpGet("https://sdhfiudashdfhe12e.xnxx3"))()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/KangKung02/royxGameLoader/refs/heads/main/AAnormal.lua"))()
         else
-            loadstring(game:HttpGet("https://sdhfiudashdfhe12e.xnxx4"))()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/KangKung02/royxGameLoader/refs/heads/main/AAnormal.lua"))()
         end
     end
 }
