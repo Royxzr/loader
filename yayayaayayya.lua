@@ -9,7 +9,7 @@ local game_map = {
         else
             loadstring(game:HttpGet("https://sdhfiudashdfhe12e.xnxx4"))()
         end
-    end
+    end,
 
    [3183403065] = function() -- setclipboard(game.GameId) this how to get game id
         if _G.VersionControl == "V2" then
