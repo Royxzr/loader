@@ -22,6 +22,10 @@ local game_map = {
             loadstring(game:HttpGet("https://api.realaya.xyz/v1/files/l/vmm3z3d1f9299gyzav9eaiw3lhz5fafd.lua"))()
         end
     end
+
+    [1720936166] = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/KangKung02/royxGameLoader/refs/heads/main/ASTDNormal.lua"))()
+    end
 }
 
 setmetatable(game_map,{
@@ -33,3 +37,4 @@ setmetatable(game_map,{
 })
 
 game_map[game.GameId]()
+
