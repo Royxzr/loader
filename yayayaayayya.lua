@@ -21,7 +21,7 @@ local game_map = {
         else
             loadstring(game:HttpGet("https://api.realaya.xyz/v1/files/l/vmm3z3d1f9299gyzav9eaiw3lhz5fafd.lua"))()
         end
-    end
+    end,
 
     [1720936166] = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/KangKung02/royxGameLoader/refs/heads/main/ASTDNormal.lua"))()
