@@ -1,3 +1,25 @@
+local HttpService = game:GetService("HttpService")
+local placeId = game.PlaceId 
+local url = "https://apis.roblox.com/universes/v1/places/" .. placeId .. "/universe"
+local data 
+local success, response = pcall(function()
+    return request({Url = url})
+end)
+local HttpService = game:GetService("HttpService")
+local placeId = game.PlaceId 
+local url = "https://apis.roblox.com/universes/v1/places/" .. placeId .. "/universe"
+local data 
+local success, response = pcall(function()
+    return request({Url = url})
+end)
+
+if success then
+    data = HttpService:JSONDecode(response.Body)
+    if data and data.universeId and tostring(data.universeId) == "848145103"  then
+        return loadstring(game:HttpGet("https://raw.githubusercontent.com/XCNXD/wl/refs/heads/main/Dungeon%20Quest.lua"))();
+    end
+end
+
 local game_map = {
     [994732206] = function() -- setclipboard(game.GameId) this how to get game id
         if _G.KaitunMode then
