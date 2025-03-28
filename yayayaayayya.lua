@@ -27,11 +27,15 @@ local game_map = {
         loadstring(game:HttpGet("https://raw.githubusercontent.com/KangKung02/royxGameLoader/refs/heads/main/ASTDNormal.lua"))()
     end
 }
+  [DQ] = ?
+ loadstring(game:HttpGet(""))()
+end 
+}
 
 setmetatable(game_map,{
     __index = function(...)
         return function()
-            game.Players.LocalPlayer:Kick("Not Found The Gameadpo[sadkpoasdko-paskdop[asd")
+            game.Players.LocalPlayer:Kick("Not Found The Game["Use the right one else Contact our support")
         end
     end,
 })
