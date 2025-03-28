@@ -1,10 +1,4 @@
-local HttpService = game:GetService("HttpService")
-local placeId = game.PlaceId 
-local url = "https://apis.roblox.com/universes/v1/places/" .. placeId .. "/universe"
-local data 
-local success, response = pcall(function()
-    return request({Url = url})
-end)
+
 local HttpService = game:GetService("HttpService")
 local placeId = game.PlaceId 
 local url = "https://apis.roblox.com/universes/v1/places/" .. placeId .. "/universe"
