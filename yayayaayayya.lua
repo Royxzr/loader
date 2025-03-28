@@ -27,7 +27,7 @@ local game_map = {
         loadstring(game:HttpGet("https://raw.githubusercontent.com/KangKung02/royxGameLoader/refs/heads/main/ASTDNormal.lua"))()
     end
 }
-  [DQ] = ?
+  [DQ] = function ()
  loadstring(game:HttpGet(""))()
 end 
 }
