@@ -43,15 +43,12 @@ local game_map = {
         loadstring(game:HttpGet("https://raw.githubusercontent.com/KangKung02/royxGameLoader/refs/heads/main/ASTDNormal.lua"))()
     end
 }
-  [DQ] = function ()
- loadstring(game:HttpGet(""))()
-end 
-}
+
 
 setmetatable(game_map,{
     __index = function(...)
         return function()
-            game.Players.LocalPlayer:Kick("Not Found The Game["Use the right one else Contact our support")
+            game.Players.LocalPlayer:Kick("Not Found The GameUse the right one else Contact our support")
         end
     end,
 })
