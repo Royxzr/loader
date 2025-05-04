@@ -16,12 +16,8 @@ end
 
 local game_map = {
     [994732206] = function() -- setclipboard(game.GameId) this how to get game id
-        if _G.KaitunMode then
-            loadstring(game:HttpGet("https://sdhfiudashdfhe12e.xnxx"))()
-        elseif _G.BountyMode then
-            loadstring(game:HttpGet("https://sdhfiudashdfhe12e.xnxx2"))()
-        elseif _G.V4Mode then
-            loadstring(game:HttpGet("https://sdhfiudashdfhe12e.xnxx3"))()
+        if _G.V4Mode or _G.V4Config or _G.M7Mode or _G.M7Config then
+            loadstring(game:HttpGet("https://api.realaya.xyz/v1/files/l/c89apao9zjz89ebnftweahklgd3wgqx5.lua"))()
         else
             loadstring(game:HttpGet("https://api.realaya.xyz/v1/files/l/rj0wpvqry4ier1d7060tlhipnkbwchfb.lua"))()
         end
